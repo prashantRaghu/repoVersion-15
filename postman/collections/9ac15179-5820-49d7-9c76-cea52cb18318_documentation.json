@@ -1,18 +1,18 @@
 {
     "info": {
-        "_postman_id": "36bc681b-dba3-4eb7-9f7b-b43804dc2145",
-        "name": "repoVersion-15 TEst 1",
+        "_postman_id": "bfa167ef-eb70-41fd-bc4d-5aad8d6814d1",
+        "name": " import { Icon, Illustration } from '@postman/aether';",
         "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
     },
     "item": [
         {
-            "name": "Sample endpoint: Returns details about a particular user - dsa",
-            "id": "cd8246eb-62a0-4db0-98f9-c61397aca93c",
+            "name": "Sample endpoint: Returns details about a particular users",
+            "id": "0f21d944-e9b5-4206-a61b-f1edd35c6de3",
             "request": {
                 "method": "GET",
                 "header": [],
                 "url": {
-                    "raw": "{{baseUrl}}/user?id=57559048",
+                    "raw": "{{baseUrl}}/user?id=-88441560",
                     "host": [
                         "{{baseUrl}}"
                     ],
@@ -22,7 +22,7 @@
                     "query": [
                         {
                             "key": "id",
-                            "value": "57559048",
+                            "value": "-88441560",
                             "description": "(Required) ID of the user"
                         }
                     ]
@@ -30,7 +30,7 @@
             },
             "response": [
                 {
-                    "id": "8d886b15-d5ff-4033-b41b-cc57e134d6d5",
+                    "id": "d2ea2e02-aa05-4fe5-9750-c21284e02577",
                     "name": "Sample response: Details about a user by ID",
                     "originalRequest": {
                         "method": "GET",
@@ -42,7 +42,7 @@
                             }
                         ],
                         "url": {
-                            "raw": "{{baseUrl}}/user?id=57559048",
+                            "raw": "{{baseUrl}}/user?id=-88441560",
                             "host": [
                                 "{{baseUrl}}"
                             ],
@@ -52,7 +52,7 @@
                             "query": [
                                 {
                                     "key": "id",
-                                    "value": "57559048"
+                                    "value": "-88441560"
                                 }
                             ]
                         }
@@ -65,7 +65,7 @@
                             "disabled": false,
                             "description": "A link to the next page of responses",
                             "key": "x-next",
-                            "value": "dolore ex ut exercitation qui"
+                            "value": "la"
                         },
                         {
                             "key": "Content-Type",
@@ -74,10 +74,10 @@
                     ],
                     "cookie": [],
                     "responseTime": null,
-                    "body": "{\n \"id\": -94986290,\n \"name\": \"non nulla commodo co\",\n \"tag\": \"id elit Excepteur occaecat\"\n}"
+                    "body": "{\n \"id\": 50878787,\n \"name\": \"ut nisi esse tempor sint\",\n \"tag\": \"labore in magna exercitation\"\n}"
                 },
                 {
-                    "id": "c120e253-32ff-44e5-a9a7-a0bfefd669e9",
+                    "id": "78757ea4-649d-4b99-b419-7f8667c26603",
                     "name": "Unexpected error",
                     "originalRequest": {
                         "method": "GET",
@@ -89,7 +89,7 @@
                             }
                         ],
                         "url": {
-                            "raw": "{{baseUrl}}/user?id=57559048",
+                            "raw": "{{baseUrl}}/user?id=-88441560",
                             "host": [
                                 "{{baseUrl}}"
                             ],
@@ -99,7 +99,7 @@
                             "query": [
                                 {
                                     "key": "id",
-                                    "value": "57559048"
+                                    "value": "-88441560"
                                 }
                             ]
                         }
@@ -115,7 +115,7 @@
                     ],
                     "cookie": [],
                     "responseTime": null,
-                    "body": "{\n \"code\": 73794032,\n \"message\": \"velit fugiat dolore m\"\n}"
+                    "body": "{\n \"code\": -99119135,\n \"message\": \"et dolor eiusmod\"\n}"
                 }
             ]
         }
@@ -137,7 +137,7 @@
     },
     "variable": [
         {
-            "id": "82589b4a-aaf4-4f0a-9e2d-ee17742d8c7c",
+            "id": "f3b7db1d-c291-4c7f-ba6b-d81223d8bd1b",
             "key": "baseUrl",
             "value": "https://petstore.swagger.io/v1",
             "type": "string"
